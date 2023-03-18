@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+      body {
+        font-family: Arial;
+        background-color: white;
+      }
+      .container {
+        width: 180px;
+        border: 1px solid ;
+        border-radius: 30px;
+        margin: 50px auto ;
+        background-color: white;
+        padding: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      button {
+        width: 70px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .edit {
+        background-color: blue;
+      }
+      .delete {
+        background-color: blue;
+      }
+      .add-new {
+        margin: 0 auto;
+        display: block;
+        background-color: blue;
+      }
+      strong + span {
+        color: blue;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Veteranian Information</h2>
+      <p>
+        <strong>Clinic Name:</strong> Reese<br>
+        <strong>Doctor:</strong> Dr. Reese<br>
+        <strong>Email:</strong> <span>abc@gmail.com</span><br>
+        <strong>Phone:</strong> 123-456-7890<br>
+        <strong>Address:</strong> 123 Dog Dr. <br> Suite D <br>Canine City,Mi 12345<br>
+        <strong>Notes:</strong><br> The vet tech named Alex was great with Lady
+      </p>
+      <div class="button-container">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </div>
+      <button class="add-new">Add New</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+  <head>
+    
+    <style>
+      body {
+        font-family: Arial;
+        background-color: white;
+      }
+      .container {
+        width: 180px;
+        border: 1px solid ;
+        border-radius: 30px;
+        margin: 50px auto ;
+        background-color: white;
+        padding: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      button {
+        width: 70px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .edit {
+        background-color: blue;
+      }
+      .delete {
+        background-color: blue;
+      }
+      .add-new {
+        margin: 0 auto;
+        display: block;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Medications</h2>
+      <p>
+        <strong>Name of Medication:</strong> Novalin N<br>
+        <strong>Dose:</strong> 10 units<br>
+        <strong>Frequency:</strong> 2x daily<br>
+        <strong>Start Date:</strong> 01/01/21<br>
+        <strong>End Date:</strong> tbd<br>
+        <strong>Notes:</strong><br> Insulin injections in rear leg with 20-gauge syringe
+      </p>
+      <div class="button-container">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </div>
+      <button class="add-new">Add New</button>
+    </div>
+  </body>
+</html>
